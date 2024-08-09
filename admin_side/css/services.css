@@ -1,0 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(rgb(20, 20, 52),blue);
+    background-attachment: fixed;
+    color: white;
+}
+h1
+{
+    text-align: center;
+    margin-top: 15%;
+}

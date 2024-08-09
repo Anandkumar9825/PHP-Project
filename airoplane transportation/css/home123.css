@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.home-back
+{
+    background-color: black;
+    height: 70px;
+    background-color: rgb(214, 6, 6);
+}
+.home-image
+{
+    width: 100%;
+    height: 750px;
+    opacity: 1;
+}
+.ticket-type
+{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: -15%;
+}
+label
+{
+    font-family: fantasy;
+}
+
+.home_detail_1
+{
+    position: absolute;
+    top: 22%;
+    color: darkblue;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 100px;
+}
+.home_detail_2
+{
+    position: absolute;
+    top: 40%;
+    color: darkblue;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size:80px;
+}
+
+@media only screen and (max-width:1321px)
+{
+    .home_detail_1
+    {
+        font-size: 70px;
+    }
+    .home_detail_2
+    {
+        font-size: 70px;
+    }
+}
+
